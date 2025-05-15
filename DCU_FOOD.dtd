@@ -1,0 +1,58 @@
+<!ELEMENT DCU_food (center, dorm, art, social-science)>
+<!ELEMENT center (sundae, deoji, budae, cheese-budae, chicken-mayo, deonjang, donkatsu, cheese-donkatsu, okonomi, goguma-cheese, ricecake-ramen, cheese-ramen, egg-ramen, rice)>
+<!ELEMENT sundae (name, price, main_image)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT main_image (#PCDATA)>
+<!ATTLIST main_image
+          file CDATA #REQUIRED
+          height CDATA #REQUIRED
+          width CDATA #REQUIRED>
+<!ELEMENT deoji (name, price, main_image)>
+<!ELEMENT budae (name, price, main_image)>
+<!ELEMENT cheese-budae (name, price, main_image)>
+<!ELEMENT chicken-mayo (name, price, main_image)>
+<!ELEMENT deonjang (name, price, main_image)>
+<!ELEMENT donkatsu (name, price, main_image)>
+<!ELEMENT cheese-donkatsu (name, price, main_image)>
+<!ELEMENT okonomi (name, price, main_image)>
+<!ELEMENT goguma-cheese (name, price, main_image)>
+<!ELEMENT ricecake-ramen (name, price, main_image)>
+<!ELEMENT cheese-ramen (name, price, main_image)>
+<!ELEMENT egg-ramen (name, price, main_image)>
+<!ELEMENT rice (name, price, main_image)>
+<!ELEMENT dorm (sodam, delisioso, noodle, bulgogi, hanbagu, bossam, katsu39, moms-touch, flex-hotdog, hanseot, gs25, masi-grey)>
+<!ELEMENT sodam (name, weekday, weekend)>
+<!ELEMENT weekday (#PCDATA)>
+<!ELEMENT weekend (#PCDATA)>
+<!ELEMENT delisioso (name, weekday, weekend)>
+<!ELEMENT noodle (name, weekday, weekend)>
+<!ELEMENT bulgogi (name, weekday, weekend)>
+<!ELEMENT hanbagu (name, weekday, weekend)>
+<!ELEMENT bossam (name, weekday, weekend)>
+<!ELEMENT katsu39 (name, weekday, weekend)>
+<!ELEMENT moms-touch (name, weekday, weekend)>
+<!ELEMENT flex-hotdog (name, weekday, weekend)>
+<!ELEMENT hanseot (name, weekday, weekend)>
+<!ELEMENT gs25 (name, weekday, weekend)>
+<!ELEMENT masi-grey (name, weekday, weekend)>
+<!ELEMENT art (mara, toowoomba, peperonybacon, beefrose, baconcream, hotbaconcream)>
+<!ELEMENT mara (name, price, main_image)>
+<!ELEMENT toowoomba (name, price, main_image)>
+<!ELEMENT peperonybacon (name, price, main_image)>
+<!ELEMENT beefrose (name, price, main_image)>
+<!ELEMENT baconcream (name, price, main_image)>
+<!ELEMENT hotbaconcream (name, price, main_image)>
+<!ELEMENT social-science (ricecakeramen, cheeseramen, mandoramen, woodong, deonjang, sixgaejang, galbetang, budae, rice, donkatsu, cheesedonkatsu, gogumadonkatsu, banban1, banban2, jaesix, nalchi)>
+<!ELEMENT ricecakeramen (name, price, main_image)>
+<!ELEMENT cheeseramen (name, price, main_image)>
+<!ELEMENT mandoramen (name, price, main_image)>
+<!ELEMENT woodong (name, price, main_image)>
+<!ELEMENT sixgaejang (name, price, main_image)>
+<!ELEMENT galbetang (name, price, main_image)>
+<!ELEMENT cheesedonkatsu (name, price, main_image)>
+<!ELEMENT gogumadonkatsu (name, price, main_image)>
+<!ELEMENT banban1 (name, price, main_image)>
+<!ELEMENT banban2 (name, price, main_image)>
+<!ELEMENT jaesix (name, price, main_image)>
+<!ELEMENT nalchi (name, price, main_image)>

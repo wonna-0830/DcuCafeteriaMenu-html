@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<?xml-stylesheet type="text/xsl" href="social-science.xsl"?>
+<DCU_food>
+  <center>
+    <sundae>
+      <name>순대국밥</name>
+      <price>5,500원</price>
+      <main_image file="&quot;sundae.jpg&quot;" height="30" width="50"/>
+    </sundae>
+    <deoji>
+      <name>돼지국밥</name>
+      <price>5,500원</price>
+      <main_image file="&quot;deoji.jpg&quot;" height="30" width="50"/>
+    </deoji>
+    <budae>
+      <name>부대찌개+라면사리</name>
+      <price>4,900원</price>
+      <main_image file="&quot;budae.jpg&quot;" height="30" width="50"/>
+    </budae>
+    <cheese-budae>
+      <name>치즈부대찌개</name>
+      <price>5,300원</price>
+      <main_image file="&quot;cheesebudae.jpg&quot;" height="30" width="50"/>
+    </cheese-budae>
+    <chicken-mayo>
+      <name>치킨마요덮밥</name>
+      <price>4,500원</price>
+      <main_image file="&quot;chickenmayo.jpg&quot;" height="30" width="50"/>
+    </chicken-mayo>
+    <deonjang>
+      <name>청양된장찌개</name>
+      <price>4,500원</price>
+      <main_image file="&quot;deonjang.jpg&quot;" height="30" width="50"/>
+    </deonjang>
+    <donkatsu>
+      <name>순살등심돈까스</name>
+      <price>5,200원</price>
+      <main_image file="&quot;donkatsu.jpg&quot;" height="30" width="50"/>
+    </donkatsu>
+    <cheese-donkatsu>
+      <name>치즈돈까스</name>
+      <price>5,700원</price>
+      <main_image file="&quot;cheesedonkatsu.jpg&quot;" height="30" width="50"/>
+    </cheese-donkatsu>
+    <okonomi>
+      <name>오꼬노미치즈돈까스</name>
+      <price>5,700원</price>
+      <main_image file="&quot;okonomi.jpg&quot;" height="30" width="50"/>
+    </okonomi>
+    <goguma-cheese>
+      <name>고구마치즈돈까스</name>
+      <price>5,700원</price>
+      <main_image file="&quot;gogumacheese.jpg&quot;" height="30" width="50"/>
+    </goguma-cheese>
+    <ricecake-ramen>
+      <name>떡라면</name>
+      <price>2,800원</price>
+      <main_image file="&quot;ricecakeramen.jpg&quot;" height="30" width="50"/>
+    </ricecake-ramen>
+    <cheese-ramen>
+      <name>치즈라면</name>
+      <price>3,000원</price>
+      <main_image file="&quot;cheeseramen.jpg&quot;" height="30" width="50"/>
+    </cheese-ramen>
+    <egg-ramen>
+      <name>계란라면</name>
+      <price>3,000원</price>
+      <main_image file="&quot;eggramen.jpg&quot;" height="30" width="50"/>
+    </egg-ramen>
+    <rice>
+      <name>공기밥</name>
+      <price>1,000원</price>
+      <main_image file="&quot;rice.jpg&quot;" height="30" width="50"/>
+    </rice>
+  </center>
+  <dorm>
+    <sodam>
+      <name>소담한</name>
+      <weekday>AM 08:00 ~ PM: 19:00</weekday>
+      <weekend>AM 10:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </sodam>
+    <delisioso>
+      <name>델리지오소</name>
+      <weekday>AM 10:00 ~ PM 14:30</weekday>
+      <weekend>X</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </delisioso>
+    <noodle>
+      <name>별난 멸치 국수</name>
+      <weekday>AM 10:00 ~ PM 14:30</weekday>
+      <weekend>X</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </noodle>
+    <bulgogi>
+      <name>홍대불고기</name>
+      <weekday>AM 10:00 ~ PM 20:30</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </bulgogi>
+    <hanbagu>
+      <name>홍대함바그</name>
+      <weekday>AM 10:00 ~ PM 20:30</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </hanbagu>
+    <bossam>
+      <name>홍대보쌈</name>
+      <weekday>AM 10:00 ~ PM 20:30</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </bossam>
+    <katsu39>
+      <name>카츠3.9</name>
+      <weekday>AM 10:00 ~ PM 20:30</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </katsu39>
+    <moms-touch>
+      <name>맘스터치</name>
+      <weekday>AM 10:00 ~ PM 21:00</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </moms-touch>
+    <flex-hotdog>
+      <name>플렉스 핫도그</name>
+      <weekday>AM 10:00 ~ PM 20:00</weekday>
+      <weekend>AM 11:00 ~ PM 19:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </flex-hotdog>
+    <hanseot>
+      <name>한솥</name>
+      <weekday>AM 9:00 ~ PM 20:00</weekday>
+      <weekend>AM 11:00 ~ PM 19:30</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </hanseot>
+    <gs25>
+      <name>Gs25</name>
+      <weekday>AM 07:30 ~ PM 24:00 </weekday>
+      <weekend>AM 09:00 ~ PM 24:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </gs25>
+    <masi-grey>
+      <name>마시그레이</name>
+      <weekday>AM 10:00 ~ PM 21:00</weekday>
+      <weekend>AM 12:00 ~ PM 18:00</weekend>
+      <main_image file="&quot;.jpg&quot;" height="30" width="50"/>
+    </masi-grey>
+  </dorm>
+  <art>
+    <mara>
+      <name>마라 상하이 파스타</name>
+      <price>5,000원</price>
+      <main_image file="&quot;mara.jpg&quot;" height="30" width="50"/>
+    </mara>
+    <toowoomba>
+      <name>베이컨 투움바 파스타</name>
+      <price>5,500원</price>
+      <main_image file="&quot;toowoomba.jpg&quot;" height="30" width="50"/>
+    </toowoomba>
+    <peperonybacon>
+      <name>페퍼로니 로제 오븐 파스타</name>
+      <price>5,000원</price>
+      <main_image file="&quot;peperonyrose.jpg&quot;" height="30" width="50"/>
+    </peperonybacon>
+    <beefrose>
+      <name>비프 로제 오븐 파스타</name>
+      <price>5,000원</price>
+      <main_image file="&quot;beefrose.jpg&quot;" height="30" width="50"/>
+    </beefrose>
+    <baconcream>
+      <name>베이컨 크림 파스타</name>
+      <price>5,000원</price>
+      <main_image file="&quot;baconcream.jpg&quot;" height="30" width="50"/>
+    </baconcream>
+    <hotbaconcream>
+      <name>매콤 베이컨 크림 파스타</name>
+      <price>5,500원</price>
+      <main_image file="&quot;hotbaconcream.jpg&quot;" height="30" width="50"/>
+    </hotbaconcream>
+  </art>
+  <social-science>
+    <ricecakeramen>
+      <name>떡라면</name>
+      <price>3,000원</price>
+      <main_image file="&quot;ricecakeramen.jpg&quot;" height="30" width="50"/>
+    </ricecakeramen>
+    <cheeseramen>
+      <name>치즈라면</name>
+      <price>3,500원</price>
+      <main_image file="&quot;cheeseramen.jpg&quot;" height="30" width="50"/>
+    </cheeseramen>
+    <mandoramen>
+      <name>떡만두라면</name>
+      <price>3,500원</price>
+      <main_image file="&quot;mandoramen.jpg&quot;" height="30" width="50"/>
+    </mandoramen>
+    <woodong>
+      <name>우동</name>
+      <price>3,900원</price>
+      <main_image file="&quot;woodong.jpg&quot;" height="30" width="50"/>
+    </woodong>
+    <deonjang>
+      <name>차돌박이된장</name>
+      <price>5,500원</price>
+      <main_image file="&quot;deonjang.jpg&quot;" height="30" width="50"/>
+    </deonjang>
+    <sixgaejang>
+      <name>육개장</name>
+      <price>6,000원</price>
+      <main_image file="&quot;sixgaejang.jpg&quot;" height="30" width="50"/>
+    </sixgaejang>
+    <galbetang>
+      <name>갈비탕</name>
+      <price>6,900원</price>
+      <main_image file="&quot;galbetang.jpg&quot;" height="30" width="50"/>
+    </galbetang>
+    <budae>
+      <name>부대찌개</name>
+      <price>5,500원</price>
+      <main_image file="&quot;budae.jpg&quot;" height="30" width="50"/>
+    </budae>
+    <rice>
+      <name>공기밥추가</name>
+      <price>700원</price>
+      <main_image file="&quot;rice.jpg&quot;" height="30" width="50"/>
+    </rice>
+    <donkatsu>
+      <name>수제돈가스&amp;에이드</name>
+      <price>5,300원</price>
+      <main_image file="&quot;rice.jpg&quot;" height="30" width="50"/>
+    </donkatsu>
+    <cheesedonkatsu>
+      <name>치즈돈가스&amp;에이드</name>
+      <price>5,700원</price>
+      <main_image file="&quot;cheesedonkatsu.jpg&quot;" height="30" width="50"/>
+    </cheesedonkatsu>
+    <gogumadonkatsu>
+      <name>고구마돈가스&amp;에이드</name>
+      <price>5,700원</price>
+      <main_image file="&quot;gogumacheese.jpg&quot;" height="30" width="50"/>
+    </gogumadonkatsu>
+    <banban1>
+      <name>치반돈반&amp;에이드</name>
+      <price>6,900원</price>
+      <main_image file="&quot;cheesedonkatsu.jpg&quot;" height="30" width="50"/>
+    </banban1>
+    <banban2>
+      <name>고반돈반&amp;에이드</name>
+      <price>6,900원</price>
+      <main_image file="&quot;gogumacheese.jpg&quot;" height="30" width="50"/>
+    </banban2>
+    <jaesix>
+      <name>제육덮밥</name>
+      <price>5,500원</price>
+      <main_image file="&quot;jaesix.jpg&quot;" height="30" width="50"/>
+    </jaesix>
+    <nalchi>
+      <name>뚝배기날치알</name>
+      <price>5,500원</price>
+      <main_image file="&quot;nalchi.jpg&quot;" height="30" width="50"/>
+    </nalchi>
+  </social-science>
+</DCU_food>

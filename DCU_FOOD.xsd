@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="DCU_food">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="center"/>
+        <xs:element ref="dorm"/>
+        <xs:element ref="art"/>
+        <xs:element ref="social-science"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="center">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sundae"/>
+        <xs:element ref="deoji"/>
+        <xs:element ref="budae"/>
+        <xs:element ref="cheese-budae"/>
+        <xs:element ref="chicken-mayo"/>
+        <xs:element ref="deonjang"/>
+        <xs:element ref="donkatsu"/>
+        <xs:element ref="cheese-donkatsu"/>
+        <xs:element ref="okonomi"/>
+        <xs:element ref="goguma-cheese"/>
+        <xs:element ref="ricecake-ramen"/>
+        <xs:element ref="cheese-ramen"/>
+        <xs:element ref="egg-ramen"/>
+        <xs:element ref="rice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sundae">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="main_image">
+    <xs:complexType>
+      <xs:attribute name="file" type="xs:string" use="required"/>
+      <xs:attribute name="height" type="xs:string" use="required"/>
+      <xs:attribute name="width" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deoji">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="budae">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cheese-budae">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="chicken-mayo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deonjang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="donkatsu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cheese-donkatsu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="okonomi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="goguma-cheese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ricecake-ramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cheese-ramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="egg-ramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dorm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sodam"/>
+        <xs:element ref="delisioso"/>
+        <xs:element ref="noodle"/>
+        <xs:element ref="bulgogi"/>
+        <xs:element ref="hanbagu"/>
+        <xs:element ref="bossam"/>
+        <xs:element ref="katsu39"/>
+        <xs:element ref="moms-touch"/>
+        <xs:element ref="flex-hotdog"/>
+        <xs:element ref="hanseot"/>
+        <xs:element ref="gs25"/>
+        <xs:element ref="masi-grey"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sodam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delisioso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="noodle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bulgogi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hanbagu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bossam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="katsu39">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="moms-touch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flex-hotdog">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hanseot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gs25">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="masi-grey">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="weekday" type="xs:string"/>
+        <xs:element name="weekend" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="art">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mara"/>
+        <xs:element ref="toowoomba"/>
+        <xs:element ref="peperonybacon"/>
+        <xs:element ref="beefrose"/>
+        <xs:element ref="baconcream"/>
+        <xs:element ref="hotbaconcream"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mara">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="toowoomba">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="peperonybacon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="beefrose">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="baconcream">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hotbaconcream">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="social-science">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ricecakeramen"/>
+        <xs:element ref="cheeseramen"/>
+        <xs:element ref="mandoramen"/>
+        <xs:element ref="woodong"/>
+        <xs:element ref="deonjang"/>
+        <xs:element ref="sixgaejang"/>
+        <xs:element ref="galbetang"/>
+        <xs:element ref="budae"/>
+        <xs:element ref="rice"/>
+        <xs:element ref="donkatsu"/>
+        <xs:element ref="cheesedonkatsu"/>
+        <xs:element ref="gogumadonkatsu"/>
+        <xs:element ref="banban1"/>
+        <xs:element ref="banban2"/>
+        <xs:element ref="jaesix"/>
+        <xs:element ref="nalchi"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ricecakeramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cheeseramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mandoramen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="woodong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sixgaejang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="galbetang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cheesedonkatsu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gogumadonkatsu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="banban1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="banban2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="jaesix">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nalchi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="price" type="xs:string"/>
+        <xs:element ref="main_image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
